@@ -7,11 +7,11 @@ npm install -g prisma2
 prisma2 init hello-prisma
 ```
 
-> Lift and Photon are currently in Preview! [Limitations](https://github.com/prisma/prisma2-docs/blob/master/limitations.md) include missing features, limited performance and stability issues.
+> Lift and Photon are currently in Preview! [Limitations](https://github.com/prisma/prisma2/blob/master/docs/limitations.md) include missing features, limited performance and stability issues.
 
 ## The `prisma init` flow
 
-### 1. Database selection 
+### 1. Database selection
 
 The first step asks you which kind of database you want to use with Photon/Lift. Currently, the following databases are supported:
 
@@ -20,7 +20,7 @@ The first step asks you which kind of database you want to use with Photon/Lift.
 - **PostgreSQL**
 - MongoDB (coming soon)
 
-> When choosing **SQLite**, you can either point the Prisma CLI to an existing SQLite database file or let it create a new database file for you. With **all other options**, you'll need to provide the database connection details and credentials in the next step. 
+> When choosing **SQLite**, you can either point the Prisma CLI to an existing SQLite database file or let it create a new database file for you. With **all other options**, you'll need to provide the database connection details and credentials in the next step.
 
 ### 2. Database credentials
 
@@ -66,7 +66,6 @@ Finally, you can decide how your initial project setup should look like:
 - **gRPC boilerplate**: Sets up a gRPC server example based on Photon
 
 ## Installing the Prisma CLI
-
 
 ### NPM
 
